@@ -1,0 +1,20 @@
+#sfondo{
+background-color: black;
+
+}
+#foto{
+    weight: 100px;
+    height: 100px;
+}
+#titolo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+color: white; 
+}
+#locazione1{
+    color: white;
+}
+#locazione2{
+    color: white;
+}

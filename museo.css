@@ -1,0 +1,20 @@
+#sfondo{
+    background-color: black;
+}
+
+#titolo{
+ text-align: center;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ color: white;
+ font-size: 50px;
+}
+#numero{
+    color: white;
+}
+#fax{
+    color: white;
+}
+
+#email{
+    color: white;
+}

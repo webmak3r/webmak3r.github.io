@@ -1,0 +1,28 @@
+#menuOr {
+    text-align:center;
+    background-color:black;
+    }
+    #menuOr ul {
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    list-style-type:none;
+    }
+    #menuOr ul a:link , ul a:visited{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    color: white;
+    text-transform:uppercase;
+    }
+    #menuOr ul a:hover {
+
+
+        
+        background-color:rgb(7, 7, 7);
+        }
+        #menuOr ul li{
+        
+        float:left;
+        width:120px;
+        }
