@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="stile3.css" rel="stylesheet" type="text/css" media="screen" />
+        <script type="text/javascript">
+        function funzioneProdotto()
+        {
+            var numero1=document.forms["moltiplicazione"]["n1"].value;
+            var numero2=document.forms["moltiplicazione"]["n2"].value;
+            risultato=numero1*numero2;
+            window.alert("Risultato: "+risultato);
+        }
+        </script>
+        <script>
+        function funzioneDivsione()
+        {
+            var numero1=document.forms["divisione"]["n1"].value;
+            var numero2=document.forms["divisione"]["n2"].value;
+            risultato=numero1/numero2;
+            window.alert("Risultato: "+risultato);
+        }
+
+        </script>
+        <script>
+            function funzioneAddizione()
+            {
+                var numero1=document.forms["addizione"]["n1"].value;
+                var numero2=document.forms["addizione"]["n2"].value;
+                var risultato=sum(numero1)(numero2);
+                window.alert(risultato);
+            }
+    
+       </script>
+       <script>
+        function funzioneSottrazione()
+        {
+            var numero1=document.forms["sottrazione"]["n1"].value;
+            var numero2=document.forms["sottrazione"]["n2"].value;
+            risultato=numero1-numero2;
+            window.alert(risultato);
+        }
+
+   </script>
+    </head>
+    <body>
+        <h1>moltiplicazione</h1>
+        <form name="moltiplicazione">
+            inserire primo numero<input name="n1"><br/><br/>
+            inserire secondo numero<input name="n2"><br/><br/>
+            <input type="button" value="calcola!" onclick="funzioneProdotto()">
+        </form>
+        <h1>divisione</h1>
+        <form name="divisione">
+            inserire primo numero<input name="n1"><br/><br/>
+            inserire secondo numero<input name="n2"><br/><br/>
+            <input type="button" value="calcola!" onclick="funzioneDivsione()">
+        </form>
+        <h1>addizione</h1>
+        <form name="addizione">
+            inserire primo numero<input name="n1"><br/><br/>
+            inserire secondo numero<input name="n2"><br/><br/>
+            <input type="button" value="calcola!" onclick="funzioneAddizione()">
+        </form>
+        <h1>sottrazione</h1>
+        <form name="sottrazione">
+            inserire primo numero<input name="n1"><br/><br/>
+            inserire secondo numero<input name="n2"><br/><br/>
+            <input type="button" value="calcola!" onclick="funzioneSottrazione()">
+        </form>
+    </body>
+</html>
